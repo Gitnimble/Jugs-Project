@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jugs Coin - Hodl More Sui with Bigger Jugs!</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e0f7ff;
+            color: #fff;
+        }
+
+        /* Header / Hero Section */
+        .hero {
+            background: linear-gradient(to bottom right, #0077be, #00bfff);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            flex-direction: column;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .hero .button {
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #00bfff;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .hero .button:hover {
+            background-color: #0077be;
+        }
+
+        /* Navbar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 51, 102, 0.9);
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 20px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #00bfff;
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .about, .buy, .tokenomics, .roadmap, .contact {
+            background-color: #0077be;
+        }
+
+        .about h2, .buy h2, .tokenomics h2, .roadmap h2, .contact h2 {
+            color: #fff;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#how-to-buy">How to Buy</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <h1>Jugs Coin</h1>
+    <p>Hodl more Sui with bigger Jugs!</p>
+    <a href="https://t.me/JugsofSui" target="_blank" class="button">Join Telegram</a>
+    <a href="https://x.com/JugsofSui" target="_blank" class="button">Follow on Twitter</a>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <h2>What is Jugs?</h2>
+    <div class="section-content">
+        <p>Jugs is a meme coin on the Sui blockchain. It’s fun, liquid, and holds value! Our goal is to create the biggest “jug” of Sui, letting holders accumulate Sui while embracing meme culture.</p>
+    </div>
+</section>
+
+<!-- How to Buy Section -->
+<section class="buy" id="how-to-buy">
+    <h2>How to Buy Jugs</h2>
+    <div class="section-content">
+        <p>Follow these steps to get your hands on Jugs:</p>
+        <ol>
+            <li>Connect your wallet to a Sui-compatible exchange.</li>
+            <li>Search for "Jugs" and trade your Sui tokens for Jugs.</li>
+            <li>Start hodling those Jugs and watch them grow!</li>
+        </ol>
+    </div>
+</section>
+
+<!-- Tokenomics Section -->
+<section class="tokenomics" id="tokenomics">
+    <h2>Tokenomics</h2>
+    <div class="section-content">
+        <p>Total Supply: 1,000,000,000 Jugs</p>
+        <p>50% allocated to liquidity, 30% for community incentives, 10% to team, 10% for future development.</p>
+    </div>
+</section>
+
+<!-- Roadmap Section -->
+<section class="roadmap" id="roadmap">
+    <h2>Roadmap</h2>
+    <div class="section-content">
+        <p>Q4 2024: Initial launch of Jugs coin on Sui blockchain.</p>
+        <p>Q1 2025: Expand to additional exchanges and launch marketing campaign.</p>
+        <p>Q2 2025: Introduction of staking mechanisms and community-driven development.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="section-content">
+        <p>For inquiries, collaborations, or support, reach out to us via Telegram or Twitter:</p>
+        <a href="https://t.me/JugsofSui" target="_blank" class="button">Telegram</a>
+        <a href="https://x.com/JugsofSui" target="_blank" class="button">Twitter</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2024 Jugs Coin on Sui Blockchain. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
